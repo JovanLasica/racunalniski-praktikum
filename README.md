@@ -1,2 +1,2 @@
-# racunalniski-praktikum
-My first repository on GitHub.
+# Racunalniški praktikum
+My first repository on GitHub. Ctrl+C, Ctrl+Shift+Z, Alt+F4
