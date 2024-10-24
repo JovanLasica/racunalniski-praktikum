@@ -6,7 +6,7 @@
 <!-- 1. nivojski razdelek -->
 ## Bližnjice na tipkovnici
 
-Ctrl+Z, Ctrl+Del, Alt+Tab (domača naloga 2) 
+Ctrl+Z, Ctrl+Del, Alt+Tab
 
 _Kopiraj_ označeno v odložišče: Ctrl+C (**C**opy)
 _Izreži_ označeno v odložišče: Ctrl+X
