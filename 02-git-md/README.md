@@ -3,8 +3,10 @@
 <!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
      V tem besedilu so v komentarjih napisana navodila za reševanje. -->
 
-<!-- 2. nivojski razdelek -->
+<!-- 1. nivojski razdelek -->
 ## Bližnjice na tipkovnici
+
+Ctrl+Z, Ctrl+Del, Alt+Tab (domača naloga 2) 
 
 _Kopiraj_ označeno v odložišče: Ctrl+C (**C**opy)
 _Izreži_ označeno v odložišče: Ctrl+X
