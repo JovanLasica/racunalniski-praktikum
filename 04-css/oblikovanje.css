@@ -19,10 +19,27 @@ h1 {
     text-align: left;
     margin-left: 2em;
     float: right;
+    border-radius: 50%;
   }
   .slika img {
     width: 100%;
     height: auto;
+  }
+  .slika p:last-child {
+    font-size: 0.8em;
+    background-color: #cc0000;
+  }
+  p {
+    font-weight: bold;
+  }
+  
+  li:nth-child(-n + 3) {
+    border: 2px solid orange;
+    margin-bottom: 1px;
+  }
+  
+  li:nth-child(even) {
+    background-color: lightyellow;
   }
     /*  Barva pisave pod značko oz. oznako  */
     color: #333333; 
