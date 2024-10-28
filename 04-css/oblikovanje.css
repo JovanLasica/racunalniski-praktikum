@@ -1,4 +1,29 @@
 body {
+h1 {
+    color: #330066;
+ }
+ h2 {
+    margin-top: 2em;
+    border-top: 1px;
+    color: #AAAAAA;
+    border-top-style: solid;
+    padding: 0.5em;
+ }
+ #uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+ }
+ .slika {
+    font-size: 0.9em;
+    width: 40%;
+    text-align: left;
+    margin-left: 2em;
+    float: right;
+  }
+  .slika img {
+    width: 100%;
+    height: auto;
+  }
     /*  Barva pisave pod značko oz. oznako  */
     color: #333333; 
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
