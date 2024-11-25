@@ -7,3 +7,6 @@
 *.blg
 *.toc
 *.synctex(busy)
+*.nav
+*.out
+*.snm
