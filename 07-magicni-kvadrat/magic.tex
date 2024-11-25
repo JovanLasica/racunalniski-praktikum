@@ -18,12 +18,12 @@
 \newcommand{\m}{\mathcal{M}}
 \newcommand{\pojem}[1]{\emph{\color{purple}#1}}
 \newenvironment{dokaz}{\begin{proof}[Dokaz izreka]}{\end{proof}}
-\newenvironment{magic}[1][Magični kvadrat reda 3]{\begin{table}[!ht]
-   \caption{#1}
-   \label{table.mag3}
+\newenvironment{magic}[3]{\begin{table}[!ht]
+   \caption{#2}
+   \label{#3}
    \centering
    \large
-   \begin{tabular}{|*{3}{c|}}
+   \begin{tabular}{|*{#1}{c|}}
       \hline}
       {\end{tabular}
    \end{table}}
@@ -89,12 +89,12 @@ Prirejeno iz virov:
 \end{definicija}
 % \end{definicija}
 
-Primer magičnega kvadrata reda 3 je prikazan v tabeli \ref{table.mag3}.
+Primer magičnega kvadrata reda 3 je prikazan v tabeli \ref{table:mag3}.
 
 % - napis nad tabelo: Magični kvadrat reda 3
 % - oznaka: table:mag3
 % Začetek magičnega kvadrata
-\begin{magic}
+\begin{magic}{3}{Magični kvadrat reda 3}{table:mag3}
       8 & 1 & 6 \\\hline
       3 & 5 & 7 \\\hline
       4 & 9 & 2 \\\hline
@@ -113,7 +113,7 @@ Primer magičnega kvadrata reda 3 je prikazan v tabeli \ref{table.mag3}.
 \end{definicija}
    % \end{definicija}
 
-Magični kvadrat v tabeli \ref{table.mag3} je normalen.
+Magični kvadrat v tabeli \ref{table:mag3} je normalen.
 To je tudi najmanjši netrivialen normalen magični kvadrat.
 Poleg normalnih magičnih kvadratov so zanimivi tudi magični kvadrati praštevil.
 
@@ -349,7 +349,7 @@ komplementarni kvadrat, prikazan v tabeli \ref{table:closhu}.
 \end{table}
 
 Vidimo, da je dobljeni kvadrat moč dobiti iz kvadrata Lo Shu tudi z zasukom za
-180 stopinj okrog središča, kvadrat iz tabele \ref{table.mag3} pa je mogoče dobiti
+180 stopinj okrog središča, kvadrat iz tabele \ref{table:mag3} pa je mogoče dobiti
 iz kvadrata Lo Shu z zrcaljenjem preko sredinske vodoravne črte.
 
 % \begin{definicija}
