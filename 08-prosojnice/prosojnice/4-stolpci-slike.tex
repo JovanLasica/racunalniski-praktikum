@@ -98,7 +98,7 @@
 	\td = \t-2*cos(60);
 	}
 	% % Definicija točke T
-	\coordinate [label={[blue, above]:$T$}] (T) at (0,{\t});
+	\coordinate [label={[blue, above left]:$T$}] (T) at (0,{\t});
 	% % Risanje točke T
 	\fill[blue] (T) circle (2pt);
 	% % Premica p
@@ -128,7 +128,7 @@
 	radius=2] node[right] {\scriptsize $n$};
 	\pause
 	% % Naloga 3.4.4.: Definirajte in narišite točko C.
-	\coordinate [label={[blue, above]:$C$}] (C) at (0,{-\t});
+	\coordinate [label={[blue, below right]:$C$}] (C) at (0,{-\t});
 	\fill[blue] (C) circle (2pt);
 	\pause
 	% % Naloga 3.4.5.: Narišite premico skozi točki T in C.
@@ -181,7 +181,7 @@
 		color=red,
 		]
 		{2^(x - 3)/2^3 + 1};
-		\addlegendentry{\(2^{(x - 3)}/2^3 + 1\)}
+		\addlegendentry{\( f(x)=\frac{1}{2^3}2^{x-3} + 1 \)}
 	\end{axis}
 	\end{tikzpicture}
 \end{frame}
