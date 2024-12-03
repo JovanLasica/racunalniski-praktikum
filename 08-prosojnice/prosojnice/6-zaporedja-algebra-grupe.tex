@@ -37,7 +37,19 @@
 
 \begin{frame}{Velika determinanta}
 	Izračunaj naslednjo determinanto $2n \times 2n$, ki ima na neoznačenih mestih ničle.
-	
+	\begin{align*}
+		\begin{vmatrix}
+			1 & & & & 1 & & & & & \\
+			& 2 & & & 2 & & & & & \\
+			& & \ddots & & \vdots & & & & & \\
+			& & & n-1 & n-1 & & & & & \\
+			1 & 2 & \dots & n-1 & n & n+1 & n+2 & \dots & 2n \\
+			& & & & n+1 & n+1 & & & & \\
+			& & & & n+2 & & n+2 & & & \\
+			& & & & \vdots & & & \ddots & \\
+			& & & & 2n & & & & 2n 
+		\end{vmatrix}
+	\end{align*}
 \end{frame}
 
 \begin{frame}{Grupe}
